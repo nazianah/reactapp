@@ -18,6 +18,7 @@ root.render(
     <Hobby name="reading" />
     <AboutMeL name="Himanish" />
     <Hobby name="Drink Beer" />
+    <Contact/>
   </React.StrictMode>
 );
 
