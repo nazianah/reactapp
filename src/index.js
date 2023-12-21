@@ -8,17 +8,32 @@ import Books from "./Books";
 import AboutMeL from "./aboutmeL";
 import Hobby from "./hobby";
 import Contact from "./Contact";
+import { Route, Link, BrowserRouter, Routes } from "react-router-dom"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AboutMe name="NAZIANAH" />
+    <BrowserRouter>
+      <div>
+          <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+          </ul>
+          <Routes>
+            <Route exact path="/" element={<AboutMe />} />
+            <Route exact path="/books" element={<Books />} />
+            <Route exact path="/contact" element={<Contact></Contact>}/>
+          </Routes>
+      </div>
+    </BrowserRouter>
+
+    {/* <AboutMe name="NAZIANAH" />
     <Books name="surround by idoits" />
     <AboutMeL name="lorshinee" />
     <Hobby name="reading" />
     <AboutMeL name="Himanish" />
     <Hobby name="Drink Beer" />
-    <Contact/>
+    <Contact/> */}
   </React.StrictMode>
 );
 
