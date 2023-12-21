@@ -11,7 +11,6 @@ import Books from './Books';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
     <AboutMe name="NAZIANAH"/> 
     <Books name="surround by idoits"/> 
   </React.StrictMode>
