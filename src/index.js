@@ -21,8 +21,13 @@ root.render(
             <li><Link to="/books">Books</Link></li>
           </ul>
           <Routes>
+<<<<<<< HEAD
             <Route exact path="/" element={<AboutMe name="Himanish" />} />
             <Route exact path="/books" element={<Books name= "How To Become Millionaire" />} />
+=======
+            <Route exact path="/" element={<AboutMe />} />
+            <Route path="/books/:id" element={<Books />} />
+>>>>>>> 68bbc5bd874beb013fa453489a9e4e80e106bdef
             <Route exact path="/contact" element={<Contact></Contact>}/>
           </Routes>
       </div>
