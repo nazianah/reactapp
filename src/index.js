@@ -21,7 +21,7 @@ root.render(
           </ul>
           <Routes>
             <Route exact path="/" element={<AboutMe />} />
-            <Route exact path="/books" element={<Books />} />
+            <Route path="/books/:id" element={<Books />} />
             <Route exact path="/contact" element={<Contact></Contact>}/>
           </Routes>
       </div>
