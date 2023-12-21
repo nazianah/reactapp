@@ -4,7 +4,7 @@ const Books = (props) => {
   return (
     <>
     <h1>Books</h1>
-     <h2>Books name {props.Books}!</h2>
+     <h2>books {props.name}!</h2>
     </>
  
   )
