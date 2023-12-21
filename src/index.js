@@ -5,7 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AboutMe from './AboutMe';
 import Books from './Books';
-
+import AboutMeL from './aboutmeL';
+import Hobby from './hobby';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,7 +14,9 @@ root.render(
   <React.StrictMode>
     <App />
     <AboutMe name="NAZIANAH"/> 
-    <Books name="surround by idoits"/> 
+    <Books name="surround by idoits"/>
+    <AboutMeL name="lorshinee"/> 
+    <Hobby name="reading"/>
   </React.StrictMode>
 );
 
