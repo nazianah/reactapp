@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AboutMe from './AboutMe';
+import Books from './Books';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <AboutMe name="NAZIANAH"/> 
+    <Books name="surround by idoits"/> 
   </React.StrictMode>
 );
 
