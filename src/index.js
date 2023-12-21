@@ -18,10 +18,11 @@ root.render(
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/books">Books</Link></li>
           </ul>
           <Routes>
-            <Route exact path="/" element={<AboutMe />} />
-            <Route exact path="/books" element={<Books />} />
+            <Route exact path="/" element={<AboutMe name="Himanish" />} />
+            <Route exact path="/books" element={<Books name= "How To Become Millionaire" />} />
             <Route exact path="/contact" element={<Contact></Contact>}/>
           </Routes>
       </div>
