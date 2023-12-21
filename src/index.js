@@ -1,21 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import AboutMe from './AboutMe';
-import Books from './Books';
-import AboutMeL from './aboutmeL';
-import Hobby from './hobby';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import AboutMe from "./AboutMe";
+import Books from "./Books";
+import AboutMeL from "./aboutmeL";
+import Hobby from "./hobby";
+import Contact from "./Contact";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AboutMe name="NAZIANAH"/> 
-    <Books name="surround by idoits"/>
-    <AboutMeL name="lorshinee"/> 
-    <Hobby name="reading"/>
+    <AboutMe name="NAZIANAH" />
+    <Books name="surround by idoits" />
+    <AboutMeL name="lorshinee" />
+    <Hobby name="reading" />
+    <AboutMeL name="Himanish" />
+    <Hobby name="Drink Beer" />
   </React.StrictMode>
 );
 
